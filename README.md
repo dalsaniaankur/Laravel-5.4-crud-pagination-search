@@ -7,6 +7,7 @@ Laravel 5.4 - CRUD + Pagination + Search
 
 2. Database migration
 >php artisan make:migration create_items_table
+
 >Note :add schema in migation table
 
 3.Install Table
