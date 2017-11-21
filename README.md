@@ -7,15 +7,16 @@ Laravel 5.4 - CRUD + Pagination + Search
 
 2. Database migration
 >php artisan make:migration create_items_table
+>Note :add schema in migation table
 
-	>Note :add schema in migation table
-
-Install Table
+3.Install Table
 >php artisan migrate 	
 
-3. >php artisan make:model Items
+4 Make Model
+>php artisan make:model Items
 
-4. >composer require "illuminate/html":"5.4.0*"
+5. Install HTML package
+>composer require "illuminate/html":"5.4.0*"
 
 5. Open /config/app.php and update as follows:
 
