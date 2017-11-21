@@ -2,7 +2,7 @@
 Laravel 5.4 - CRUD + Pagination + Search
 
 1. Install Laravel 
->composer create-project --prefer-dist laravel/laravel 5.4 l54
+>composer create-project --prefer-dist laravel/laravel l54 5.4 
 
 
 2. Database migration
@@ -12,13 +12,13 @@ Laravel 5.4 - CRUD + Pagination + Search
 3.Install Table
 >php artisan migrate 	
 
-4 Make Model
+4. Make Model
 >php artisan make:model Items
 
 5. Install HTML package
 >composer require "illuminate/html":"5.4.0*"
 
-5. Open /config/app.php and update as follows:
+6. Open /config/app.php and update as follows:
 
 'providers' => [
 	...
